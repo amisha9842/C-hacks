@@ -79,3 +79,22 @@ head=0;
 newnode=(struct node *)malloc(sizeof(struct node))
 
  
+ //////////
+ ::::STACK::::
+
+collection of similar datatype
+
+last in fisrt out(LIFO) or first in last out
+
+limited access possible..also called ordered list
+
+Rule::insertion and deletion possible only from one end
+
+insertion(Push(x))..deletion(Pop())..peep() (stores the first element from top without deleting it)...isempty() isfull()
+
+In stack memory, can be allocated in two ways. The static memory allocation and dynamic memory allocation static memory allocation is the one in which we use array and the dynamic memory allocation is the one in which we use linked list.
+
+Start Underflow Condition occurs when we try to pop an element off the sack when it is empty. And stack overflow condition occurs when we try to insert an element in the stack, even though the maximum allotted size in the stack is reached.
+
+
+
